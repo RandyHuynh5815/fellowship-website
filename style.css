@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(#008888, green);
+    color: white
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+}
+
+p {
+    font-family: 'Times New Roman';
+}
+#profile {
+    height: 400px;
+    width: 600px;
+}
+
+a {
+    color: maroon;
+    font-size: 20px;
+}
+.list {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex {
+    display: flex;
+}
