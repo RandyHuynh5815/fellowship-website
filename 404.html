@@ -16,7 +16,7 @@
       const path = window.location.pathname.substring(1).toLowerCase().split('/')[1];
       console.log(path);
 
-      const redirect = redirects[path];
+      const redirect = "fellowship-website/".concat(redirects[path]);
       if (redirect) {
 				// Redirect to the desired location
         window.location.replace(redirect);
