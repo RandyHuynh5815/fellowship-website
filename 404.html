@@ -7,7 +7,7 @@
       // Dictionary that has all of your redirect rules
 			// You can add additional redirects if you'd like
 	  const redirects = {
-        "resume": "fellowship-website/resume.pdf"
+        "resume": "resume.pdf"
       }
 
 			// window.location.pathname -> Get the path -> /resume
@@ -19,7 +19,7 @@
       const redirect = redirects[path];
       if (redirect) {
 				// Redirect to the desired location
-        window.location.replace(redirect);
+        window.location.replace("https://randyhuynh5815.github.io/fellowship-website/" + redirect);
       } else {
 				// If the path doesn't exist, you can redirect to your main page
         window.location.replace("https://randyhuynh5815.github.io/fellowship-website/");
